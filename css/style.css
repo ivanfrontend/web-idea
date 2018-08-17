@@ -774,13 +774,18 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   float: left;
   margin-bottom: 40px;
   position: relative;
+}
+.open_sub_catigori {
   overflow: hidden;
   height: 100px;
 }
-.fh5co-feature .fh5co-icon {
+.open_sub_catigori .fh5co-icon{
   position: absolute;
   top: 0;
   left: 0;
+}
+.fh5co-feature .fh5co-icon {
+
   width: 100px;
   height: 100px;
   display: table;
@@ -803,8 +808,10 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     font-size: 40px;
   }
 }
-.fh5co-feature .fh5co-text {
+.open_sub_catigori .fh5co-text{
   padding-left: 120px;
+}  
+.fh5co-feature .fh5co-text {
   width: 100%;
 }
 .fh5co-feature .fh5co-text h2, .fh5co-feature .fh5co-text h3 {
@@ -1178,7 +1185,16 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .margin_bottom10{
   margin-bottom: 10px;
 }
-
+.my_margin_bottom10{
+  margin-bottom: 10px;
+}
+.my_super img{
+  width: 100%;
+}
+.my_style_contener{
+    text-align: center;
+    padding-bottom: 0px !important;
+}
 
 
 /*# sourceMappingURL=style.css.map */

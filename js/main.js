@@ -157,6 +157,8 @@
 
 }());
 
+
+
 function my_first_plagen(this_ckick, par, okCssObjekt, noneCssObjekt) {
 	var my_objekt = {
 		my_par : par,
